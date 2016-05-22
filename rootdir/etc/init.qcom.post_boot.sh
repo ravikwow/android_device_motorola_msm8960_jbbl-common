@@ -347,3 +347,6 @@ case "$target" in
         echo 0 > /sys/module/ct406/parameters/prox_enable
      ;;
 esac
+
+# Init.d support
+run-parts /system/etc/init.d
