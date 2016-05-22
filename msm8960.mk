@@ -114,6 +114,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/audio_policy.conf:system/etc/audio_policy.conf
 
+# Low memory killer config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/min_free:system/etc/init.d/min_free
+
 # Media config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml \

@@ -1,0 +1,3 @@
+#!/system/bin/sh
+chmod 0644 /sys/module/lowmemorykiller/parameters/minfree
+echo "4096,8192,16384,24576,32768,49152" > /sys/module/lowmemorykiller/parameters/minfree
